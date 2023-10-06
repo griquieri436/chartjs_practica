@@ -78,6 +78,6 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         })
 
-        //captura el error si es que existe algúno
+        //captura el error si es que existe algúno 
         .catch(error => console.error('Error al cargar los datos:', error));
 });
