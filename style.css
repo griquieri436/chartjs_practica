@@ -5,13 +5,13 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(45deg, #000, #252525);
+    background: #fff;
 }
 h2{
     text-align: center;
     margin: 2rem;
     font-size: 40px;
-    color: aliceblue;
+    color: #303030;
 }
 .container {
     display: grid;
@@ -28,7 +28,7 @@ h2{
 .chart{
     padding: 2rem;
     backdrop-filter: blur(10px);
-    background: rgba(129, 70, 3, 0.315);
+    background: rgba(255, 252, 249, 0.315);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.24);
     border-radius: 15px;
     border-color: gray;

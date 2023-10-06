@@ -33,7 +33,8 @@ var datosActividades = {
       y: {
         stacked: true
       }
-    }
+    },
+    responsive: true
   };
 
   var ctx6 = document.getElementById('polar').getContext('2d');
