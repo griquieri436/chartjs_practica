@@ -2,8 +2,8 @@ function barras() {
     // Cargar los datos desde data.json- los toma desde el html
     fetch('./json/data1.json')
         .then(response => response.json())
-        .then(data => {
-            console.log (data);
+        .then(data1 => {
+            console.log (data1);
             // Modificar los datos según tus necesidades
             // data.labels = ['NuevoEnero', 'NuevoFebrero', 'NuevoMarzo', 'NuevoAbril', 'NuevoMayo', 'NuevoJunio', 'NuevoJulio', 'NuevoAgosto', 'NuevoSeptiembre', 'NuevoOctubre', 'NuevoNoviembre', 'NuevoDiciembre'];
 
@@ -12,7 +12,7 @@ function barras() {
 
             const barchart = new Chart(ctx1, {
                 type: 'bar',
-                data: data,
+                data: data1,
                 options: {
                     scales: {
                         y: {
